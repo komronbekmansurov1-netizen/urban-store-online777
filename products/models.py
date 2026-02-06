@@ -18,4 +18,4 @@ class Product(models.Model):
     name = models.CharField(max_length=100)
     brend = models.CharField(max_length=100, choices=Brend.choices)
     size = models.CharField(max_length=50, choices=Size.choices)
-    price = 
+    price = models
